@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,
+300;1,400;1,500;1,600;1,700;1,800&family=Tilt+Neon&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;
+0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu
+:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="containerc">
+        <a href=""><span class="first-l">a</span>lipapa</a>
+
+        <div class="search-bar">
+          <input type="search" placeholder="search" />
+        </div>
+
+        <nav>
+          <i class="fa-solid fa-bars menue"></i>
+
+          <ul>
+            <li><a href="" class="home">home</a></li>
+            <li><a href="">services</a></li>
+            <li class="hidden"><a href="">about us</a></li>
+            <li><a href="">programs</a></li>
+          </ul>
+
+          <div class="icon-1">
+            <i class="fa-solid fa-user user"></i>
+            <button class="BTN">login</button>
+          </div>
+
+          <!-- icon -->
+        </nav>
+      </div>
+      <!-- container -->
+    </header>
+
+    <div class="sec-2">
+      <div class="opasity"></div>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide container-2"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/wallpaperflare.com_wallpaper (6).jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block info-sec-2">
+              <h5>giza Pyramids</h5>
+              <p>the most popular trip in egypt</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/wallpaperflare.com_wallpaper (10).jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block info-sec-2">
+              <h5>snorkling</h5>
+              <p>its a good thing to do in the red sea</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/wallpaperflare.com_wallpaper (8).jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block info-sec-2">
+              <h5>aswan</h5>
+              <p>Stunning views with special charm</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- sec-2 -->
+    <div class="welcome">
+      <div class="img-float">
+        <img src="images/wallpaperflare.com_wallpaper (4).jpg" alt="" />
+      </div>
+      <div class="welcome-info">
+        <h3>WELCOME</h3>
+        <p>
+          Are you planning to visit Egypt?<br />
+          We offer the ultimate tour in Egypt, covering Cairo, alex. From a one
+          day trip to a 10 day dream vacation, we will take care of all your
+          needs. book hotels. 24/7 Customer Service.
+        </p>
+        <button class="button-89" role="button">learn more</button>
+      </div>
+      <!-- welcome-info -->
+    </div>
+    <!-- welcome -->
+
+    <div class="popular">
+      <h3>popular destination in egypt</h3>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button full-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Giza city
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> Major
+              tourist destinations include the millennia-old monuments in the
+              Nile Valley. Principal among them are the Pyramids and Great
+              Sphinx at Giza
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed full-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Aswan city
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> Luxor,
+              about 500 km south of Cairo, is the site of the ancient city of
+              Thebes. It includes the ruins of the temple complexes at Karnak
+              and Luxor, which stand within the modern city. On the opposite
+              side of the Nile River lie the monuments, temples and tombs on the
+              West Bank Necropolis, which include the Valley of the Kings and
+              Valley of the Queens.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed full-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Sinai
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse info-3"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> Sinai
+              has the beach resorts of Sharm el-Sheikh, Dahab, Nuweiba and Taba
+              as well as locations mentioned in the Bible such as Mount Sinai
+              ("Jabal Musa"). Saint Catherine's Monastery may be the oldest
+              working Christian monastery in the world.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- accordion -->
+    </div>
+    <!-- popular -->
+
+    <sec-3>
+      <h3>programs</h3>
+
+      <div class="programs">
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="images/600x400-1-50-2a7d5b484852e2b3661db6351907aa6e.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="card-info">
+            <p class="title">luxury egypt journeys</p>
+            <p class="subtitle">
+              Luxury Egypt journeys will take you back to bygone era of more
+              comfortable travel
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="images/600x400-1-50-3c8deac8f1944dfa64acd24cc2835280.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="card-info">
+            <p class="title">egypt unique journeys</p>
+            <p class="subtitle">
+              Egypt unique journeys, Will let you see and feel the country by an
+              Egyptian eyes.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="images/600x400-1-50-627c414cdef36996c4fd00f973d2cdf3.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="card-info">
+            <p class="title">cairo journeys</p>
+            <p class="subtitle">
+              Cairo journeys & city breaks are designed for a stopover or a long
+              weekend in Cairo.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+      <!-- programs -->
+
+      <div class="programs">
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="images/600x400-1-50-e76bcf111596bc1e0c3e91d092aec5b5.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="card-info">
+            <p class="title">nile cruises</p>
+            <p class="subtitle">
+              Enjoy a trip to the heart of Egypt, and take the Nile River Cruise
+              between Luxor and Aswan.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="images/600x400-1-50-55019df0d8735ae7a7347d0f520c6372.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="card-info">
+            <p class="title">dahabiya nile cruises</p>
+            <p class="subtitle">
+              Do you want to make a trip to previous era? It’s absolutely
+              possible with our authentic tours.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+        <div class="card">
+          <div class="card-img">
+            <img
+              src="images/600x400-1-50-59514ba5ae8333191a8b0856f63b5f42.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="card-info">
+            <p class="title">lake nasser cruises</p>
+            <p class="subtitle">
+              can offer you an unique experience for exploring ancient Nubian
+              culture and nature.
+            </p>
+          </div>
+        </div>
+        <!-- card -->
+      </div>
+      <!-- programs --> </sec-3
+    ><!-- sec-3 -->
+
+    <div class="sec-4">
+      <h3>services</h3>
+      <div class="container-4">
+        <div class="cards">
+          <div class="card red">
+            <p class="tip">Hover Me</p>
+            <p class="second-text">Lorem Ipsum</p>
+          </div>
+          <div class="card blue">
+            <p class="tip">Hover Me</p>
+            <p class="second-text">Lorem Ipsum</p>
+          </div>
+          <div class="card green">
+            <p class="tip">Hover Me</p>
+            <p class="second-text">Lorem Ipsum</p>
+          </div>
+          <div class="card green">
+            <p class="tip">Hover Me</p>
+            <p class="second-text">Lorem Ipsum</p>
+          </div>
+          <div class="card green">
+            <p class="tip">Hover Me</p>
+            <p class="second-text">Lorem Ipsum</p>
+          </div>
+        </div>
+        <!-- cards -->
+      </div>
+      <!-- container-4 -->
+    </div>
+    <!-- sec-4 -->
+
+    <div class="sec-5">
+      <h3>why chose us</h3>
+
+      <div class="con-5">
+        <div class="why-chose-con">
+          <div class="card-2">
+            <div class="icon-c2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                height="38px"
+                width="38px"
+                version="1.1"
+                id="heart"
+                viewBox="0 0 471.701 471.701"
+                xml:space="preserve"
+              >
+                <linearGradient id="gradientColor">
+                  <stop offset="5%" stop-color="#7eaaff"></stop>
+                  <stop offset="95%" stop-color="#ff48fb"></stop>
+                </linearGradient>
+                <g>
+                  <path
+                    d="M433.601,67.001c-24.7-24.7-57.4-38.2-92.3-38.2s-67.7,13.6-92.4,38.3l-12.9,12.9l-13.1-13.1   c-24.7-24.7-57.6-38.4-92.5-38.4c-34.8,0-67.6,13.6-92.2,38.2c-24.7,24.7-38.3,57.5-38.2,92.4c0,34.9,13.7,67.6,38.4,92.3   l187.8,187.8c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-3.9l188.2-187.5c24.7-24.7,38.3-57.5,38.3-92.4   C471.801,124.501,458.301,91.701,433.601,67.001z M414.401,232.701l-178.7,178l-178.3-178.3c-19.6-19.6-30.4-45.6-30.4-73.3   s10.7-53.7,30.3-73.2c19.5-19.5,45.5-30.3,73.1-30.3c27.7,0,53.8,10.8,73.4,30.4l22.6,22.6c5.3,5.3,13.8,5.3,19.1,0l22.4-22.4   c19.6-19.6,45.7-30.4,73.3-30.4c27.6,0,53.6,10.8,73.2,30.3c19.6,19.6,30.3,45.6,30.3,73.3   C444.801,187.101,434.001,213.101,414.401,232.701z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <p class="title">Creativity</p>
+            <p class="text">Check all your favourites in one place.</p>
+          </div>
+
+          <div class="info-sec-5">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              repudiandae aut animi incidunt ut dolore,
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              repudiandae aut animi incidunt ut dolore,
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              repudiandae aut animi incidunt ut dolore,
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+              repudiandae aut animi incidunt ut dolore,
+            </p>
+          </div>
+        </div>
+        <!-- why-chose-con-->
+      </div>
+      <!-- con-5 -->
+    </div>
+    <!-- sec-5 -->
+
+    <!-- /////////////////////////////////////////////////////// -->
+
+    <div class="pro-con">
+      <h3>EGYPT NEWS</h3>
+      <div class="card-pro odd">
+        <div class="img-pro">
+          <img
+            src="images/300304569-pyramids-and-museum-day-tour-in-Cairo.jpg"
+            alt=""
+          />
+        </div>
+        <div class="info-pro">
+          <h4>GIZA</h4>
+          <p><i class="fa-regular fa-calendar-days"></i>Mon,may 25th 2023</p>
+          <p>
+            Giza Pyramids And Egyptian Museum Day Tour Thrilling Tour To Giza
+            Pyramids, Abu Elhol Sphinx And Cairo Egyptian Museum, Camel Ride In
+            Desert Around Pyramids, Enjoy The Best Panorama View Of Giza
+            Pyramids, Egyptian Museum In Cairo, Tour Begin At 7:30 Or 8:
+          </p>
+          <div class="info-att">
+            <ul>
+              <li><i class="fa-solid fa-tag"></i>podcast</li>
+              <li><i class="fa-solid fa-clock"></i>55min</li>
+              <li><i class="fa-solid fa-play"></i>play episode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- card-pro -->
+      <div class="card-pro">
+        <div class="img-pro">
+          <img src="images/546618082-Giza-Pyramids-half-day-tour.jpg" alt="" />
+        </div>
+        <div class="info-pro">
+          <h4>CAIRO CHEAP TRIPS</h4>
+          <p><i class="fa-regular fa-calendar-days"></i>Mon,may 25th 2023</p>
+
+          <p>
+            CAIRO CHEAP TRIPS FROM SHARM BY BUS Cairo Day Trip From Sharm El
+            Sheikh By Bus Preordain Wonderful Day Trip To Cairo From Sharm El
+            Sheikh By Bus, Distance Between Cairo And Sharm Is 7 Hours By Bus,
+            Where You Will Ameliorate Your
+          </p>
+          <div class="info-att">
+            <ul>
+              <li><i class="fa-solid fa-tag"></i>podcast</li>
+              <li><i class="fa-solid fa-clock"></i>55min</li>
+              <li><i class="fa-solid fa-play"></i>play episode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- card-pro -->
+      <div class="card-pro odd">
+        <div class="img-pro">
+          <img
+            src="images/1206625372-Alexandria-day-Tour-From-Cairo.jpg"
+            alt=""
+          />
+        </div>
+        <div class="info-pro">
+          <h4>ALEXANDRIA</h4>
+          <p><i class="fa-regular fa-calendar-days"></i>Mon,may 25th 2023</p>
+
+          <p>
+            ALEXANDRIA DAY TOUR FROM CAIRO Alexandria Day Tour From Cairo,
+            Alexandria ( AL ISKANDARIA In Arabic) Has Absorbed An Astonishing
+            Variety Of Cultural Influences, From Roman And Early Christian To
+            Byzantine And Muslim
+          </p>
+          <div class="info-att">
+            <ul>
+              <li><i class="fa-solid fa-tag"></i>podcast</li>
+              <li><i class="fa-solid fa-clock"></i>55min</li>
+              <li><i class="fa-solid fa-play"></i>play episode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- card-pro -->
+      <div class="card-pro">
+
+
+        <div class="img-pro">
+          <img
+            src="images/1519366196-Day-tour-to-Dahshur,-Saqqara-and-Memphis.jpg"
+            alt=""
+          />
+        </div>
+
+        
+        <div class="info-pro">
+          <h4>DAHSHUR</h4>
+          <p><i class="fa-regular fa-calendar-days"></i>Mon,may 25th 2023</p>
+
+          <p>
+            DAHSHUR, SAQQARA & MEMPHIS TOUR Day Tour To Dahshur, Saqqara And
+            Memphis, Relish A Day Tour Scouting The Most Ancient Forms Of
+            Egyptian Pyramids, Tour To The Unusual Pyramids, The Step Pyramid Of
+            Saqqara, The Bent Pyramid And
+          </p>
+          <div class="info-att">
+            <ul>
+              <li><i class="fa-solid fa-tag"></i>podcast</li>
+              <li><i class="fa-solid fa-clock"></i>55min</li>
+              <li><i class="fa-solid fa-play"></i>play episode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- card-pro -->
+    </div>
+    <!-- pro-con -->
+
+    <!-- //////////////////////////////////////////////////////////////////// -->
+    <div class="sec-7">
+      <h3>our team</h3>
+      <div class="our-team">
+        <div class="card-3">
+          <button class="mail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </button>
+          <div class="profile-pic">
+            <img
+              src="images/WhatsApp Image 2023-06-10 at 12.46.17.jpg"
+              alt=""
+            />
+          </div>
+          <div class="bottom">
+            <div class="content">
+              <span class="name">My Name</span>
+              <span class="about-me"
+                >Lorem ipsum dolor sit amet consectetur adipisicinFcls
+              </span>
+            </div>
+            <div class="bottom-bottom">
+              <div class="social-links-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="15.999"
+                  viewBox="0 0 16 15.999"
+                >
+                  <path
+                    id="Subtraction_4"
+                    data-name="Subtraction 4"
+                    d="M6-582H-2a4,4,0,0,1-4-4v-8a4,4,0,0,1,4-4H6a4,4,0,0,1,4,4v8A4,4,0,0,1,6-582ZM2-594a4,4,0,0,0-4,4,4,4,0,0,0,4,4,4,4,0,0,0,4-4A4.005,4.005,0,0,0,2-594Zm4.5-2a1,1,0,0,0-1,1,1,1,0,0,0,1,1,1,1,0,0,0,1-1A1,1,0,0,0,6.5-596ZM2-587.5A2.5,2.5,0,0,1-.5-590,2.5,2.5,0,0,1,2-592.5,2.5,2.5,0,0,1,4.5-590,2.5,2.5,0,0,1,2-587.5Z"
+                    transform="translate(6 598)"
+                  ></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  ></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  ></path>
+                </svg>
+              </div>
+              <button class="button">Contact Me</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-3">
+          <button class="mail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </button>
+          <div class="profile-pic">
+            <img
+              src="images/WhatsApp Image 2023-06-10 at 12.46.17.jpg"
+              alt=""
+            />
+          </div>
+          <div class="bottom">
+            <div class="content">
+              <span class="name">My Name</span>
+              <span class="about-me"
+                >Lorem ipsum dolor sit amet consectetur adipisicinFcls
+              </span>
+            </div>
+            <div class="bottom-bottom">
+              <div class="social-links-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="15.999"
+                  viewBox="0 0 16 15.999"
+                >
+                  <path
+                    id="Subtraction_4"
+                    data-name="Subtraction 4"
+                    d="M6-582H-2a4,4,0,0,1-4-4v-8a4,4,0,0,1,4-4H6a4,4,0,0,1,4,4v8A4,4,0,0,1,6-582ZM2-594a4,4,0,0,0-4,4,4,4,0,0,0,4,4,4,4,0,0,0,4-4A4.005,4.005,0,0,0,2-594Zm4.5-2a1,1,0,0,0-1,1,1,1,0,0,0,1,1,1,1,0,0,0,1-1A1,1,0,0,0,6.5-596ZM2-587.5A2.5,2.5,0,0,1-.5-590,2.5,2.5,0,0,1,2-592.5,2.5,2.5,0,0,1,4.5-590,2.5,2.5,0,0,1,2-587.5Z"
+                    transform="translate(6 598)"
+                  ></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  ></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  ></path>
+                </svg>
+              </div>
+              <button class="button">Contact Me</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-3">
+          <button class="mail">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </button>
+          <div class="profile-pic">
+            <img
+              src="images/WhatsApp Image 2023-06-10 at 12.46.17.jpg"
+              alt=""
+            />
+          </div>
+          <div class="bottom">
+            <div class="content">
+              <span class="name">My Name</span>
+              <span class="about-me"
+                >Lorem ipsum dolor sit amet consectetur adipisicinFcls
+              </span>
+            </div>
+            <div class="bottom-bottom">
+              <div class="social-links-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="15.999"
+                  viewBox="0 0 16 15.999"
+                >
+                  <path
+                    id="Subtraction_4"
+                    data-name="Subtraction 4"
+                    d="M6-582H-2a4,4,0,0,1-4-4v-8a4,4,0,0,1,4-4H6a4,4,0,0,1,4,4v8A4,4,0,0,1,6-582ZM2-594a4,4,0,0,0-4,4,4,4,0,0,0,4,4,4,4,0,0,0,4-4A4.005,4.005,0,0,0,2-594Zm4.5-2a1,1,0,0,0-1,1,1,1,0,0,0,1,1,1,1,0,0,0,1-1A1,1,0,0,0,6.5-596ZM2-587.5A2.5,2.5,0,0,1-.5-590,2.5,2.5,0,0,1,2-592.5,2.5,2.5,0,0,1,4.5-590,2.5,2.5,0,0,1,2-587.5Z"
+                    transform="translate(6 598)"
+                  ></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  ></path>
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                  ></path>
+                </svg>
+              </div>
+              <button class="button">Contact Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our-team -->
+    </div>
+    <!-- sec-7 -->
+
+    <div class="contact-us">
+      <!-- <h2>contact</h2> -->
+      <div class="contact-cont">
+        <div class="company">
+          <h3>company</h3>
+          <p>about us</p>
+          <p>our services</p>
+          <p>privacy policy</p>
+          <p>payment options</p>
+        </div>
+        <div class="get-help">
+          <h3>get help</h3>
+          <p>FAQ</p>
+          <p>contract</p>
+          <p>returns</p>
+          <p>order status</p>
+        </div>
+        <div class="online-shop">
+          <h3>online shop</h3>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p></p>
+        </div>
+        <div class="follow-us">
+          <h3>follow us</h3>
+
+          <ul>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+          <p>reyadmohamed@gmail.com</p>
+        </div>
+      </div><!-- contact-cont -->
+      <p>© All Rights Reserved by alipapa 2023 </p>
+    </div><!-- contact-us -->
+<!-- //////////////////////////////////// -->
+    
+
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
